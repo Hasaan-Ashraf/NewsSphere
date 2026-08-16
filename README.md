@@ -1,17 +1,90 @@
-# React + Vite
+# 📰 NewsSphere — News Rendering Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **News Rendering Application** built with **React.js, Vite, Bootstrap, CSS, and NewsAPI**.
 
-Currently, two official plugins are available:
+NewsSphere allows users to discover the latest news, search for specific topics, browse news articles through an interactive interface, and open complete articles from their original sources.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project started as a basic JavaScript and Bootstrap news application and was redesigned into a modern React-based application with professional UI, responsive layouts, animated news cards, loading states, search functionality, and reusable components.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Project Overview
 
-## Expanding the ESLint configuration
+NewsSphere provides a clean and modern interface for discovering news articles from different topics.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# News-Sphere-Application
+### Main Features
+
+- 🔎 Search for news by keyword
+- 📰 Display latest news articles
+- 🌐 Fetch real-time news using NewsAPI
+- 🖼️ Display article images
+- 📖 Read full articles from original sources
+- 🎨 Professional modern UI
+- 📱 Fully responsive design
+- ✨ Animated and interactive news cards
+- ⚡ Fast React + Vite development environment
+- 🔄 Loading states while fetching news
+- ❌ Error handling for failed API requests
+- 🧩 Reusable React components
+- 🎯 Category-based news browsing
+- 🌙 Modern dark-themed interface
+
+---
+
+# 🚀 Technologies Used
+
+## Frontend
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Bootstrap
+- React Icons
+
+## Development Tools
+
+- Vite
+- ESLint
+- npm
+- Visual Studio Code
+
+## API
+
+- NewsAPI
+
+---
+
+# 🏗️ Project Architecture
+
+The application follows a component-based React architecture.
+
+```text
+NewsSphere/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── CategoryBar.jsx
+│   │   ├── NewsCard.jsx
+│   │   ├── NewsGrid.jsx
+│   │   └── LoadingCard.jsx
+│   │
+│   ├── services/
+│   │   └── newsApi.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .env
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
